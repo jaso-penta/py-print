@@ -8,6 +8,11 @@ power = 1.3 # kW
 hours_per_day = 2
 days_per_month = 30
 
+def daly_cosumption():
+    power * hours_per_day
+        
+
+
 
 print(power * hours_per_day * el_price * days_per_month)
     
