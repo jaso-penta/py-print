@@ -3,7 +3,12 @@
 
 
 
-power = 1.3
-daly_comsuption = 2
+el_price = 5.99
+power = 1.3 # kW
+hours_per_day = 2
+days_per_month = 30
+
+
+print(power * hours_per_day * el_price * days_per_month)
     
   
