@@ -28,7 +28,10 @@ fourth_part = ' . '
 
 print(first_part, a, second_part, b, third_part, p, fourth_part, sep='')
 
+
 # Unutar print() funkcije mozemo raditi racunanje
 print('Povrsina cetverokuta stranica: a = ', a, '; b = ', b, ' je: ', a * b, '.', sep='')
+
+
 
 print('Povrsina cetverokuta stranica: a = ', a, '; b = ', b, ' je: ', p, '.', sep='')
