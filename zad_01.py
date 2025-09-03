@@ -30,15 +30,3 @@ print('Tezina:', weight)
 print('Spol:', gender)
 print()
 
-
-
-
-a = 10
-b = 5
-p = a * b
-
-
-
-
-power = 1.3
-usage_time = 2
