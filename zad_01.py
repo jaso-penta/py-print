@@ -19,8 +19,16 @@ if_employed = True
 weight = 80.00 # in kg
 gender = "male"
 
-print('Ime:', first_name)
-print('Prezime:', last_name)
+
+print()                                                     # \n
+print('Ime:', first_name, end='; ')                         # \n
+print('Prezime:', last_name, end='; ')                      # \n
+print('Datum rodjenja', birth_year)
+print('Drzava rodjenja:', state_of_birth)
+print('Radni status:', if_employed)
+print('Tezina:', weight)
+print('Spol:', gender)
+print()
 
 
 
