@@ -12,13 +12,13 @@ days_per_month = 30
 monthly_consumption = power * hours_per_day * days_per_month
 price_by_month = monthly_consumption * el_price
 
-
-print(f'Mjesecna potrosnja el. energije je: {monthly_consumption}, cijena potrosnje je: {price_by_month}')
-
 print()
+print(f'Mjesecna potrosnja el. energije je: {monthly_consumption}, cijena potrosnje je: {price_by_month}')
+print('\n')
 print('Mjesecna potrosnja el. energije i', 'cijena potrosnje je:', end=' ')
 print(monthly_consumption, price_by_month, sep=', ')
-
-
-    
-  
+print('\n')
+print("Mjesečna potrošnja el. energije je:", monthly_consumption, "\nCijena potrošnje je:", price_by_month)
+print('\n')
+print('Mjesečna potrošnja el. energije je: {}, \nCijena potrošnje je {}'.format(monthly_consumption, price_by_month))
+print()
