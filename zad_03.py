@@ -8,12 +8,17 @@ power = 1.3 # kW
 hours_per_day = 2
 days_per_month = 30
 
-def daly_cosumption():
-    power * hours_per_day
-        
+
+monthly_consumption = power * hours_per_day * days_per_month
+price_by_month = monthly_consumption * el_price
 
 
+print(f'Mjesecna potrosnja el. energije je: {monthly_consumption}, cijena potrosnje je: {price_by_month}')
 
-print(power * hours_per_day * el_price * days_per_month)
+print()
+print('Mjesecna potrosnja el. energije i', 'cijena potrosnje je:', end=' ')
+print(monthly_consumption, price_by_month, sep=', ')
+
+
     
   
