@@ -11,4 +11,5 @@ p = a * v_a / 2
 
 print()
 print('Povrsina trokuta je:', p)
+print(f'Povrsina trokuta je {p: .2f}')
 print()
